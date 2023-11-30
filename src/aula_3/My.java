@@ -2,6 +2,10 @@ package aula_3;
 
 public class My {
 	
+	public static void solution(final int numberofColumns) {
+		solution(65, 122, numberofColumns);
+	}
+	
 	public static void solution() {
 		solution(65, 122, 5);
 	}

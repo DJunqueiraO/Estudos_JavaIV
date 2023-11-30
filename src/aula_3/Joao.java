@@ -7,8 +7,8 @@ public class Joao {
 	}
 	
 	public static void solution(final int start, final int end) {
-		for (int i = start; i < end; i++) {
-			System.out.println((char) i + (i == end - 1 ? "" : ", "));
+		for (int i = start; i <= end; i++) {
+			System.out.print((char) i + (i == end ? "" : ", "));
 		}
 		System.out.println("");
 	}

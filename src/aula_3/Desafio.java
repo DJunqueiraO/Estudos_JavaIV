@@ -3,13 +3,19 @@ package aula_3;
 public class Desafio {
 	
 	public static void main(String[] args) {
-		My.solution('\u0061', 122, 5);
+		My.solution('\u0061', 122, 10);
 		System.out.println();
 		System.out.println();
-		My.solution();
+		My.solution(10);
 		System.out.println();
 		System.out.println();
 		solution();
+		System.out.println();
+		System.out.println();
+		Joao.solution('a', 'z');
+		System.out.println();
+		System.out.println();
+		Joao.solution(97, 122);
 	}
 	
     public static void solution() {

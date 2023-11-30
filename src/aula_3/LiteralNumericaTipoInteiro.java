@@ -6,7 +6,7 @@ public class LiteralNumericaTipoInteiro {
 		
 		final byte b = 10;
 		print(b);
-		print(10);
+		print((byte) 10);
 	}
 	
 	private static void print(final byte b) {
