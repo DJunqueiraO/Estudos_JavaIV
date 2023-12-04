@@ -1,5 +1,6 @@
 package br.com.djuqnueirao.aula_2.teste_de_conhecimento;
 
+import java.lang.reflect.InvocationTargetException;
 import java.util.Arrays;
 import java.util.function.IntPredicate;
 import java.util.stream.Stream;
