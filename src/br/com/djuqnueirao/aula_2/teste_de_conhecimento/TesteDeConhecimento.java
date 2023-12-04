@@ -103,9 +103,9 @@ public class TesteDeConhecimento {
 	
 //			6.	Qual o resultado do código abaixo?
 //
-//			() Compila e executa com sucesso, apresentado a soma no console;
+//			(x) Compila e executa com sucesso, apresentado a soma no console;
 //			() Compila e falha na execução;
-//			(X) Falha na compilação;
+//			() Falha na compilação;
 	private static void questao6() {
 			System.out.println("6. " + Questao.QUAL_O_RESULTADO_DO_CÓDIGO_ABAIXO);
 			byte b = 010 + 8;
@@ -159,7 +159,6 @@ public class TesteDeConhecimento {
 //			11.	Criar um programa em que dado o seguinte array: (10 pontos)
 //			Apresentar a seguinte saída:
 //			2,4,6,8,10,12,14,16,18,20,1,3,5,7,9,11,13,15,17,19,
-
 	private static void questao11() {
 		System.out.println(Questao._11);
 		final int[] array = new int[] {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20};
