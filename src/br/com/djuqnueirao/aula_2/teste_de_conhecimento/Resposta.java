@@ -13,19 +13,19 @@ public enum Resposta {
 	;
 	@Override
 	public String toString() {
+		final String resposta = "\nResposta: ";
 		switch (this) {
-		
 			case COMPILA_E_EXECUTA_COM_SUCESSO:
-				return "Compila e executa com sucesso, apresentado a soma no console;";
+				return resposta + "Compila e executa com sucesso, apresentado a soma no console;";
 				
 			case COMPILA_E_FALHA_NA_EXECUÇÃO:
-				return "Compila e falha na execução;";
+				return resposta + "Compila e falha na execução;";
 				
 			case FALHA_NA_COMPILAÇÃO:
-				return "Falha na compilação;";
+				return resposta + "Falha na compilação;";
 
 			default: 
-				return name();
+				return resposta + name();
 		}
 	}
 }
