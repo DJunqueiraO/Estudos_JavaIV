@@ -183,6 +183,8 @@ public class TesteDeConhecimento {
 					.valueOf(Arrays.asList(newArray))
 					.replace("[", "")
 					.replace("]", "")
+					.replace(" ", "")
+				+ ","
 		);
 	}
 }
