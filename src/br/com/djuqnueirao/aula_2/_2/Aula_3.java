@@ -1,4 +1,4 @@
-package br.com.djuqnueirao.aula_3;
+package br.com.djuqnueirao.aula_2._2;
 
 public class Aula_3 {
 	
