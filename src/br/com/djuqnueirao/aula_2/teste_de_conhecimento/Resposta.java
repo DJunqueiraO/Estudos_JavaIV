@@ -3,8 +3,8 @@ package br.com.djuqnueirao.aula_2.teste_de_conhecimento;
 public enum Resposta {
 	
 	COMPILA_E_EXECUTA_COM_SUCESSO,
-	COMPILA_E_FALHA_NA_EXECUÇÃO,
-	FALHA_NA_COMPILAÇÃO,
+	COMPILA_E_FALHA_NA_EXECUCAO,
+	FALHA_NA_COMPILACAO,
 	PUBLIC,
 	PRIVATE,
 	PACKAGE,
@@ -18,11 +18,11 @@ public enum Resposta {
 			case COMPILA_E_EXECUTA_COM_SUCESSO:
 				return resposta + "Compila e executa com sucesso, apresentado a soma no console;";
 				
-			case COMPILA_E_FALHA_NA_EXECUÇÃO:
-				return resposta + "Compila e falha na execução;";
+			case COMPILA_E_FALHA_NA_EXECUCAO:
+				return resposta + "Compila e falha na execuï¿½ï¿½o;";
 				
-			case FALHA_NA_COMPILAÇÃO:
-				return resposta + "Falha na compilação;";
+			case FALHA_NA_COMPILACAO:
+				return resposta + "Falha na compilaï¿½ï¿½o;";
 
 			default: 
 				return resposta + name();

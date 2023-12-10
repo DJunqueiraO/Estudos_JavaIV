@@ -41,74 +41,74 @@ public class TesteDeConhecimento {
 		System.out.print("*\n");
 	}
 	
-//	1.	Qual a sintaxe do Java para representar literais numéricos inteiros de base 8?.
-//			Iniciar o número com um zero, seguido pelos dígitos octais, que vão de 0 a 7.
+//	1.	Qual a sintaxe do Java para representar literais numï¿½ricos inteiros de base 8?.
+//			Iniciar o nï¿½mero com um zero, seguido pelos dï¿½gitos octais, que vï¿½o de 0 a 7.
 	private static void questao1() {
 		System.out.println(Questao._1);
 		int numeroOctal = 075;
 		System.out.println(numeroOctal);
 	}
 	
-//			2.	Qual o resultado do código abaixo? 
+//			2.	Qual o resultado do cï¿½digo abaixo? 
 	
 //			(X) Compila e executa com sucesso, apresentado a soma no console;
-//			() Compila e falha na execução;
-//			() Falha na compilação;
+//			() Compila e falha na execuï¿½ï¿½o;
+//			() Falha na compilaï¿½ï¿½o;
 	private static void questao2() {
-			System.out.println("2. " + Questao.QUAL_O_RESULTADO_DO_CÓDIGO_ABAIXO);
+			System.out.println("2. " + Questao.QUAL_O_RESULTADO_DO_CODIGO_ABAIXO);
 			short s = 100;
 			System.out.println(++s);
 			System.out.println(Resposta.COMPILA_E_EXECUTA_COM_SUCESSO);
 	}
 
-//	3.	Qual o resultado do código abaixo?
+//	3.	Qual o resultado do cï¿½digo abaixo?
 //
 //	(X) Compila e executa com sucesso, apresentado a soma no console;
-//	() Compila e falha na execução;
-//	() Falha na compilação;
+//	() Compila e falha na execuï¿½ï¿½o;
+//	() Falha na compilaï¿½ï¿½o;
 	private static void questao3() {
-			System.out.println("3. " + Questao.QUAL_O_RESULTADO_DO_CÓDIGO_ABAIXO);
+			System.out.println("3. " + Questao.QUAL_O_RESULTADO_DO_CODIGO_ABAIXO);
 			byte b = 100 + 1;
 			System.out.println(b);
 			System.out.println(Resposta.COMPILA_E_EXECUTA_COM_SUCESSO);
 	}
 	
-//			4.	Qual o resultado do código abaixo?
+//			4.	Qual o resultado do cï¿½digo abaixo?
 //
 //			() Compila e executa com sucesso, apresentado a soma no console;
-//			() Compila e falha na execução;
-//			(X) Falha na compilação;
+//			() Compila e falha na execuï¿½ï¿½o;
+//			(X) Falha na compilaï¿½ï¿½o;
 	private static void questao4() {
-			System.out.println("4. " + Questao.QUAL_O_RESULTADO_DO_CÓDIGO_ABAIXO);
+			System.out.println("4. " + Questao.QUAL_O_RESULTADO_DO_CODIGO_ABAIXO);
 //			byte b = 100 + 1;
 //			byte c = 100;
 //			byte d = 1;
 //			byte e = c + d;
 //			System.out.println(e);
-//			System.out.println("Resposta da questão 4:");
+//			System.out.println("Resposta da questï¿½o 4:");
 //			System.out.println(Resposta.COMPILA_E_EXECUTA_COM_SUCESSO);
-			System.out.println(Resposta.FALHA_NA_COMPILAÇÃO);
+			System.out.println(Resposta.FALHA_NA_COMPILACAO);
 	}
 	
-//			5.	Qual o resultado do código abaixo?
+//			5.	Qual o resultado do cï¿½digo abaixo?
 //
 //			(X) Compila e executa com sucesso, apresentado a soma no console;
-//			() Compila e falha na execução;
-//			() Falha na compilação;
+//			() Compila e falha na execuï¿½ï¿½o;
+//			() Falha na compilaï¿½ï¿½o;
 	private static void questao5() {
-			System.out.println("5. " + Questao.QUAL_O_RESULTADO_DO_CÓDIGO_ABAIXO);
+			System.out.println("5. " + Questao.QUAL_O_RESULTADO_DO_CODIGO_ABAIXO);
 			byte b = 010 + 8;
 			System.out.println(b);
 			System.out.println(Resposta.COMPILA_E_EXECUTA_COM_SUCESSO);
 	}
 	
-//			6.	Qual o resultado do código abaixo?
+//			6.	Qual o resultado do cï¿½digo abaixo?
 //
 //			(x) Compila e executa com sucesso, apresentado a soma no console;
-//			() Compila e falha na execução;
-//			() Falha na compilação;
+//			() Compila e falha na execuï¿½ï¿½o;
+//			() Falha na compilaï¿½ï¿½o;
 	private static void questao6() {
-			System.out.println("6. " + Questao.QUAL_O_RESULTADO_DO_CÓDIGO_ABAIXO);
+			System.out.println("6. " + Questao.QUAL_O_RESULTADO_DO_CODIGO_ABAIXO);
 			byte b = 010 + 8;
 			System.out.println(b);
 			System.out.println(Resposta.COMPILA_E_EXECUTA_COM_SUCESSO);
@@ -122,7 +122,7 @@ public class TesteDeConhecimento {
 	}
 	
 //			8.	Quais as 5 formas de se criar um char e atribuir a ele um caractere presente na tabela ASCII?
-//			Atribuição direta com caractere literal, Atribuição usando valor decimal, Atribuição usando valor hexadecimal, Atribuição usando valor octal, Atribuição usando Unicode.
+//			Atribuiï¿½ï¿½o direta com caractere literal, Atribuiï¿½ï¿½o usando valor decimal, Atribuiï¿½ï¿½o usando valor hexadecimal, Atribuiï¿½ï¿½o usando valor octal, Atribuiï¿½ï¿½o usando Unicode.
 	private static void questao8() {
 			System.out.println(Questao._8);
 //			char[] formas = new char[] {
@@ -144,21 +144,21 @@ public class TesteDeConhecimento {
 			}
 	}
 	
-//			9.	Qual o padrão adotado pelo Java (tipo literal) para representar números inteiros e de ponto flutuante? 
+//			9.	Qual o padrï¿½o adotado pelo Java (tipo literal) para representar nï¿½meros inteiros e de ponto flutuante? 
 //			Int e double.
 	private static void questao9() {
 		System.out.println(Questao._9);
-		System.out.println("O próprio número(que é interpretado como Int) e o número com ponto(que é interpretado por padrão como double).");
+		System.out.println("O prï¿½prio nï¿½mero(que ï¿½ interpretado como Int) e o nï¿½mero com ponto(que ï¿½ interpretado por padrï¿½o como double).");
 	}
 
-//			10.	Qual o valor padrão utilizado pelo Java para inicializar um objeto?
+//			10.	Qual o valor padrï¿½o utilizado pelo Java para inicializar um objeto?
 	private static void questao10() {
 		System.out.println(Questao._10);
 		System.out.println(Resposta.NULL);
 	}
 	
 //			11.	Criar um programa em que dado o seguinte array: (10 pontos)
-//			Apresentar a seguinte saída:
+//			Apresentar a seguinte saï¿½da:
 //			2,4,6,8,10,12,14,16,18,20,1,3,5,7,9,11,13,15,17,19,
 	private static void questao11() {
 		System.out.println(Questao._11);
